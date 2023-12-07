@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gaming Website</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; 
+  color: #000; 
+}
+    
+    /* Header Styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    
+    /* Navigation Styles */
+    nav {
+      background-color: #444;
+      text-align: center;
+      padding: 10px 0;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+    
+    /* Banner Styles */
+    .banner {
+      background-image: url('your-background-image-url.jpg');
+      background-size: cover;
+      height: 300px;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    /* Main Content Styles */
+    main {
+      padding: 20px;
+    }
+    
+    section {
+      margin-bottom: 30px;
+    }
+    
+    h2 {
+      color: #333;
+    }
+    
+    p {
+      color: #555;
+    }
+    
+    /* Video Styles */
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      margin-bottom: 20px;
+    }
+    
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+    /* Footer Styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    /* Input Styles */
+    input[type="text"] {
+      padding: 10px;
+      width: 200px;
+    }
+    
+    /* Button Styles */
+    .btn {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      nav ul li {
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gaming Website</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Games</a></li>
+      <li><a href="#">Videos</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="banner">
+    <h2>Welcome to Our Gaming World</h2>
+    <p>Play the latest games and watch exciting videos!</p>
+  </div>
+
+  <main>
+    <section>
+      <h2>Featured Video</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section>
+      <h2>About Us</h2>
+      <p>Welcome to our gaming website! We provide the best gaming experience with a wide range of games for all ages.</p>
+    </section>
+
+    <section>
+  <h2>Subscribe for Updates</h2>
+  <form>
+    <label for="emailInput">Enter your email:</label>
+    <input type="text" id="emailInput" placeholder="Enter your email">
+    <style>
+  .btn {
+    padding: 10px 20px;
+    background-color: #f0f0f0; 
+    color:#333; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+    <button type="submit" class="btn">
+      Subscribe
+    </button>
+  </form>
+</section>
+  </main>
+
+  <footer style="background-color: #f0f0f0; color: #333;">
+  <p>&copy; 2023 Gaming Website. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
